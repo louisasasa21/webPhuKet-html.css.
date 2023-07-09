@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 1rem;
+    align-items: center;
+    background-color: #1e1d1d;
+}
+
+.nav-con {
+    justify-content: space-between;
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.phuket {
+    background-color: #f0f0f0;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10rem 0;
+}
+
+.img-bg img {
+    width: 100%;
+    height: 400px;
+}
+
+.phuket-con {
+    display: flex;
+}
+
+.phuket-info h3 {
+    font-size: 2rem;
+}
+
+.phuket-info p {
+    margin: 1rem 0;
+}
+
+.phuket-info {
+    width: 100%;
+    padding: 2rem;
+}
+
+.phuket-info .phuket-btn {
+    display: inline-block;
+    background-color: orange;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.phuket-img  img {
+    width: 100%;
+    padding: 2rem;
+}
+
+.blog-con {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.blog-title {
+    margin: 2rem 0;
+}
+
+.blog-item {
+    margin: 0.1rem;
+}
+
+.blog-item img {
+    width: 100%;
+}
+
+.blog-item h4 {
+    margin: 1rem 0;
+}
+
+.blog-item p {
+    margin: 1rem 0;
+}
+
+.blog-item .blog-btn {
+    display: inline-block;
+    color: #fff;
+    background-color: orange;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.footer-top {
+    padding: 3rem;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.footer-top-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.footer-top-item-con {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.footer-top-item-con .date {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.footer-top-item:nth-child(2) h4,
+.footer-top-item:nth-child(3) h4  {
+    margin-bottom: 1rem;
+}
+
+.footer-buttom {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    text-align: center;
+}
